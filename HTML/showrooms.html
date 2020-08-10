@@ -1,0 +1,112 @@
+ <!-- .............................Showroom........................ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BBT/showrooms</title>
+  <link rel="stylesheet" href="../css/showroom.css">
+   <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+</head>
+<body>
+
+   <!-- Slide-menu and NavBar -->
+  <div class="nav-fix">                         
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="red" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="red" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="red" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+     <h2><a href="index.html">BigBoyToyz</a></h2>
+    
+   
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="showrooms.html">Showrooms</a>
+    <a href="brands.html">Brands</a>
+    <a href="custom-zone.html">Custom Zone</a>
+     <a href="bbtworld.html">BBT World</a>
+      <a href="services.html">Services</a>
+
+  </div>
+</div>
+ <!-- Showcase -->
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        SHOWROOMS
+      </span>
+    </div>
+  </div>
+
+ <!-- Showroom-locations-->
+  <section class="section section-dark">
+    <h1 style="color: white;font-family: sans-serif;">HARYANA</h1>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+           <a href="har2.MP4" title="Check Gallery" style="color:#212121;background-color:white; border: red 2px dotted; text-decoration: none;border-radius: 10px">GALLERY</a>
+      </span>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h1 style="color: white;font-family: sans-serif;">MUMBAI</h1>
+   
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+      <a href="mumbai.jpg" title="Check Gallery" style="color:#212121;background-color:white;border: red 2px dotted; text-decoration: none;border-radius: 10px ">GALLERY</a>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h1 style="color: white;font-family: sans-serif;">DELHI</h1>
+    
+  </section>
+
+  <div class="pimg4">
+    <div class="ptext">
+      <span class="border trans">
+        <a href="st.png" title="Check Gallery" style="color:#212121;background-color:white;border: red 2px dotted; text-decoration: none;border-radius: 10px ">GALLERY</a>
+      </span>
+    </div>
+  </div>
+
+
+   <!-- footer -->
+   <footer class="center bg-dark">
+   <p title="Go To Top"><strong><a href="showrooms.html" style="color: white;text-decoration: none;">BBT &copy; 2019</a></strong></p><br>
+   <p>contact: +91 9999009999</p>
+    <p>email:  bbt@hotmail.com</p>
+    
+  </footer>
+
+</body>
+</html>
