@@ -1,0 +1,285 @@
+body {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+title{
+  background: url(bbt.png);
+}
+
+
+.navbar{
+  background-color: #212121;
+  overflow:hidden;
+  height:40px;
+ 
+
+}
+.navbar svg{
+}
+h2
+{
+  color: red;
+  font-family: serif;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+}
+.navbar svg:hover{
+  color: #fff;
+
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f92626;
+  text-align:right;
+  padding:5px 200px 10px 10px;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color: rgb(220,0,0);
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:red;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+ color:#fff;
+  font-weight: bolder;
+  background-color: rgb(250,0,0);
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+h4{
+  color: #fff;
+ font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+  margin-top: 0;
+  text-align: center;
+  background-color:black;
+
+
+
+}
+#showcase h1{
+  margin-top:0;
+  font-size:55px;
+  margin-bottom:10px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/*#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+  color: #b40a0a;
+}
+*/
+#showcase{
+  min-height:700px;
+  background:url('../images/bmwijpg.jpg') no-repeat  ;
+  background-position: center ;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+
+
+
+
+
+
+
+}
+.container-1{
+  display:flex;
+}
+
+.container-1 div{
+  border:1px red solid;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: serif;
+}
+.box-1{
+  flex: 1;
+  text-align: center;
+  color: red;
+ background-color: black;
+ 
+
+}
+
+
+
+.box-2{
+  flex: 1;
+  text-align: center;
+  color: red;
+  background-color: black;
+  
+  
+}
+.box-3{
+  flex: 1;
+   text-align: center;
+   color: red;
+    background-color: black;
+ 
+
+  
+}
+.box-4{
+  flex: 1;
+  color: red;
+   text-align: center;
+    background-color: black;
+   
+
+  
+}
+.box-5{
+  flex: 1;
+  color: red;
+   text-align: center;
+    background-color: black;
+
+}
+
+.container-2{
+  display:flex;
+}
+
+.container-2 div{
+  border:1px red solid;
+  padding: 20px;
+  border-radius: 20px;
+   font-family: serif;
+}
+.box-5{
+  flex: 1;
+  text-align: center;
+  color: red;
+ background-color: black;
+ 
+
+}
+
+
+
+.box-6{
+  flex: 1;
+  text-align: center;
+  color: red;
+  background-color: black;
+  
+  
+}
+.box-7{
+  flex: 1;
+   text-align: center;
+   color: red;
+    background-color: black;
+ 
+
+  
+}
+.box-8{
+  flex: 1;
+  color: red;
+   text-align: center;
+    background-color: black;
+   
+
+  
+}
+.box-9{
+  flex: 1;
+  color: red;
+   text-align: center;
+    background-color: black;
+
+}
+
+}
+.bg-dark {
+  background: #333;
+  color: white;
+}
+  .center {
+  text-align: center;
+  margin: auto;
+}
+.sec-1{
+  background-color: black;
+}
+.sec-2{
+  background-color: black;
+}
+
+footer {
+  padding: 2.2rem;
+
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
+
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}

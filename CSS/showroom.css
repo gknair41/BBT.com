@@ -1,0 +1,186 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+.navbar{
+  background-color: #212121;
+  overflow:hidden;
+  height:40px;
+ 
+
+}
+h2
+{
+  color: red;
+  font-family: serif;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+}
+.navbar svg:hover{
+  color: #fff;
+
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f92626;
+  text-align:right;
+  padding:5px 200px 10px 10px;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.navbar ul{
+  margin:5px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color: rgb(220,0,0);
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:red;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+ color:#fff;
+  font-weight: bolder;
+  background-color: rgb(250,0,0);
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+
+.pimg1, .pimg2, .pimg3,.pimg4{
+  position:relative;
+  
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('bbtcl.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('har.jpg');
+  min-height:100%;
+}
+
+.pimg3{
+  background-image:url('mumbai.jpg');
+  min-height:100%;
+}
+.pimg4{
+  background-image:url('st.png');
+  min-height:100%;
+  background-position:center;
+ 
+  background-repeat:no-repeat;
+
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+.bg-dark {
+  background: #333;
+  color: white;
+}
+  .center {
+  text-align: center;
+  margin: auto;
+}
+footer {
+  padding: 2.2rem;
+
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}

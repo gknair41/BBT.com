@@ -1,0 +1,160 @@
+body {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+title{
+  background: url(../images/bbt.png);
+}
+
+
+.navbar{
+  background-color: #212121;
+  overflow:hidden;
+  height:40px;
+ 
+
+}
+.navbar svg{
+}
+h2
+{
+  color: red;
+  font-family: serif;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+}
+.navbar svg:hover{
+  color: #fff;
+
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f92626;
+  text-align:right;
+  padding:5px 200px 10px 10px;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color: rgb(220,0,0);
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:red;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+ color:#fff;
+  font-weight: bolder;
+  background-color: rgb(250,0,0);
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+h4{
+  color: #fff;
+ font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+  margin-top: 0;
+  text-align: center;
+  background-color:black;
+
+
+
+}
+
+#showcase{
+  min-height:700px;
+  background:url('bbtcl231.jpg') no-repeat ;
+  background-position: center;
+  
+ 
+  color:#ffffff;
+
+}
+#showcase h1{
+  margin-top:0;
+  font-size:70px;
+  margin-bottom:10px;
+  text-align: center;
+  padding-top: 250px;
+  font-family: segoe print;
+
+}  
+
+/*Calling Animation*/
+.loader::after{
+  content: '\2026';
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  
+  animation: dots steps(4,end) 2s infinite;
+  width: 0px;
+}
+@keyframes dots {
+  to{
+    width: 1.25em;
+  }
+
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+  .center {
+  text-align: center;
+  margin: auto;
+}
+footer {
+  padding: 2.2rem;
+
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
