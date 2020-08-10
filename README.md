@@ -7,7 +7,7 @@ This project will be useful for those who want to start with web development and
 Have fun coding...:) 
 
 
-![](Images/bbt.png)
+
 
 
 
